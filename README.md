@@ -80,7 +80,7 @@ The value of `x` would now be:
 License
 -------
 
-This software is available under the terms of the [MIT License](./blob/master/LICENSE).
+This software is available under the terms of the [MIT License](./dire/blob/master/LICENSE).
 
 Credits
 -------
