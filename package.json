@@ -1,0 +1,20 @@
+{
+  "name": "dire",
+  "version": "1.0.0",
+  "description": "Require a directory of node.js modules as a flat or nested object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlosdavidepto/dire.git"
+  },
+  "keywords": [
+    "node.js",
+    "require",
+    "directory"
+  ],
+  "author": "Carlos Davide <carlosdavidepto@13brane.net>",
+  "license": "MIT"
+}
