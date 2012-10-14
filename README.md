@@ -12,7 +12,7 @@ Features:
 Installation:
 -------------
 
-TODO: put npm instructions here
+    npm install dire
 
 Usage:
 ------
