@@ -7,15 +7,9 @@ var fs       = require('fs'),
     extname  = path.extname,
     sep      = path.sep,
 
-    $ = function (key, val) {
-        console.log("%s: %s", key, val);
-    },
-
     dire = function (root, flat, ext) {
         var m = {};
-        (flat ? direFlat : direNested)(
-            m, root, [], ext
-        );
+        (flat ? direFlat : direNested)(m, root, [], ext);
         return m;
     },
 
@@ -63,9 +57,8 @@ var fs       = require('fs'),
             } else {
             
                 if (!e || extname(p) === e) {
-                    var n = d.length ?
-                        [d.join(sep), basename(entries[i], extname(entries[i]))].join(sep) :
-                        basename(entries[i], extname(entries[i]));
+                    var n = d.length ? [d.join(sep), basename(entries[i], extname(entries[i]))].join(sep)
+                                     : basename(entries[i], extname(entries[i]));
                     m[n] = require(p);
                 }
             
